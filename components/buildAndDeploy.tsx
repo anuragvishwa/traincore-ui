@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TargetImage from "@/public/images/features-illustration.png";
+import TargetImage from "@/public/images/testing.png";
 
 export default function BuildAndDeploy() {
   return (
@@ -20,7 +20,7 @@ export default function BuildAndDeploy() {
                 data-aos-anchor="[data-aos-id-target]"
               >
                 <Image
-                  className="mx-auto md:max-w-none"
+                  className="mx-auto md:max-w-none rounded-md"
                   src={TargetImage}
                   width={540}
                   height={520}
