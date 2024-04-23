@@ -1,9 +1,15 @@
 "use client";
 
+import { useEffect } from 'react';
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    // Automatically set to dark theme on component mount
+    setTheme('dark');
+  }, [setTheme]);
 
   return (
     <div className="flex-1 flex justify-end">
@@ -12,13 +18,8 @@ export default function ThemeToggle() {
         name="light-switch"
         id="light-switch"
         className="light-switch sr-only"
-        checked={theme === "dark"}
-        onChange={() => {
-          if (theme === "dark") {
-            return setTheme("light");
-          }
-          return setTheme("dark");
-        }}
+        checked={theme === 'dark'}
+        onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       />
       <label className="cursor-pointer p-2" htmlFor="light-switch">
         <svg width={16} height={16} xmlns="http://www.w3.org/2000/svg">
