@@ -18,9 +18,8 @@ export default function Home() {
         <div className="px-4 sm:px-6">
           <PageHeader
             className="mb-12"
-            title="Control Panel for AI Apps"
-            description="With Traincore's Observability Suite and AI Gateway, 
-hundreds of teams ship reliable, cost-efficient, and fast apps."
+            title="Developer Platform for AI apps"
+            description="Observability, metrics, evals, prompt management, testing, prompt playground, datasets, LLM evaluations"
           >
             Waitlist v1 <span className="text-gray-300 mx-1">·</span> Coming
             Soon
