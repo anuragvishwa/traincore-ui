@@ -6,7 +6,7 @@ export const metadata = {
 import PageHeader from "@/components/page-header";
 import SubscribeForm from "@/components/subscribe-form";
 import Image from "next/image";
-import traincoreImage from "@/public/images/Dashboard Cache Page SS.png";
+import traincoreImage from "@/public/images/dashboard4.png";
 import Features from "@/components/features";
 import BuildAndDeploy from "@/components/buildAndDeploy";
 import Feedback from "@/components/feedback";

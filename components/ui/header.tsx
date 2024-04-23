@@ -37,7 +37,8 @@ export default function Header() {
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
                     href=""
                   >
-                    Build your AI apps cost friendly.
+                   Bring your AI app
+to production.
                   </Link>
                 </li>
                 {/* <li>

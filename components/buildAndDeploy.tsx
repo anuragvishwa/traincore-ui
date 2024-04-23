@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TargetImage from "@/public/images/testing.png";
+import TargetImage from "@/public/images/dashboard7.png";
 
 export default function BuildAndDeploy() {
   return (
