@@ -36,8 +36,7 @@ export default function BuildAndDeploy() {
                       Build and deploy effective prompts
                     </h3>
                     <p className="text-xl text-gray-400 mb-4">
-                      Get insights from 40+ metrics and debug with detailed logs
-                      and traces.
+                    Collaboratively develop the best prompts and deploy them from a single place - Prompt Playground
                     </p>
 
                     <div className="flex items-start mt-8">

@@ -38,8 +38,8 @@ export default function Features() {
                     Monitor costs, quality, and latency
                   </h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Get insights from 40+ metrics and debug with detailed logs
-                    and traces.
+                    Get insights from 50+ metrics and debug with detailed logs
+                    and traces,tokens used and costs associated.
                   </p>
 
                   <div className="flex items-start mt-8">
