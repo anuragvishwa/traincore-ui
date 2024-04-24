@@ -76,7 +76,7 @@ export default function SubscribeForm() {
                   className="btn text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-white w-full"
                   type="submit"
                 >
-                  Join The Waitlist
+                  Join The Waitlist for 20% discount for early users
                 </button>
               </div>
             </div>
