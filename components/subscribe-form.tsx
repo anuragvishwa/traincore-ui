@@ -15,7 +15,7 @@ export default function SubscribeForm() {
     event.preventDefault();
     try {
       const response = await fetch(
-        "https://visualith-c8728-default-rtdb.firebaseio.com/userEmail.json",
+        "https://traincore-4900e-default-rtdb.firebaseio.com/userEmail.json",
         {
           method: "POST",
           headers: {
